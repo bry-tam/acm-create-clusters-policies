@@ -7,7 +7,7 @@ nameReference:
     path: spec/clusterName
 
   - kind: MachinePool
-    apiVersion: hive.openshift.io/v1
+    # apiVersion: hive.openshift.io/v1
     path: spec/clusterDeploymentRef/name
 
   - kind: KlusterletAddonConfig
