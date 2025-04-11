@@ -20,8 +20,6 @@ spec:
         name: aws-creds
       region: us-east-1
   provisioning:
-    imageSetRef:
-      name: img4.12.6-multi-appsub
     installConfigSecretRef:
       name: install-config
     sshPrivateKeySecretRef:
