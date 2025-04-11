@@ -25,7 +25,7 @@ configMapGenerator:
     - workerMPName=bry-worker
     - region=ap-southeast-1
     - clusterSet=dev-clusters
-    - imageSetRefName=img4.15.40-multi-appsub
+    - imageSetRefName=quay.io/openshift-release-dev/ocp-release:4.15.40-multi
     - autoScaleMaxWorkerNodes=5
 
 
