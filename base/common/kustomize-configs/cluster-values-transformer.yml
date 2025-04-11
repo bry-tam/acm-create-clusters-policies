@@ -31,7 +31,7 @@ replacements:
   - select:
       kind: ClusterDeployment
     fieldPaths: 
-    - spec.provisioning.imageSetRef.name
+    - spec.provisioning.releaseImage
     options:
       create: true
 
